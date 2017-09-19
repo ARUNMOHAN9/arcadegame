@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="containerf"></div>
+    <div id="scoreboard" class="rowf">
+         <span id="score" class="col-6">
+            <br>SCORE:
+        </span>
+        <span id="playerScore" class="col-6">
+        </span>
+    </div>
+    <div class="rowf">
+        <div id="game" class="col-6"></div>
+        <div class="col-6">
+            <h2>Controls for player:</h2>
+            <div class="rowf col-12">
+                <table align="center">
+                    <tr>
+                        <th>Option</th>
+                        <th>Key</th>
+                    </tr>
+                    <tr>
+                        <td>UP</td>
+                        <td>&uarr;</td>
+                    </tr>
+                    <tr>
+                        <td>DOWN</td>
+                        <td>&darr;</td>
+                    </tr>
+                    <tr>
+                        <td>RIGHT</td>
+                        <td>&rarr;</td>
+                    </tr>
+                    <tr>
+                        <td>LEFT</td>
+                        <td>&larr;</td>
+                    </tr>
+                    <tr>
+                        <td>Toggle Avatar</td>
+                        <td>a</td>
+                    </tr>
+                    <tr>
+                        <td>Toggle Invert Mode</td>
+                        <td>i</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="invert">
+                <h3>Press the button below to toggle invert mode</h3>
+                <button onclick="toggle()">Invert Controls</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
